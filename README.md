@@ -104,14 +104,17 @@ Example code:
 
 ## URL Link to school server:
 Felicia Jayasaputra: https://csci331.cs.montana.edu/~b81p263/project/hsdemo.html
+
 Mico Monks: https://csci331.cs.montana.edu/~t37k234/CSCI331Final/hsdemo.html
 
 ## Link to Repo(s):
 Felicia Jayasaputra: https://github.com/feliciajayasaputra/csci331-hyperscript.git
+
 Mico Monks: https://github.com/maicomarx/CSCI331FinalProject.git
 
 ## Link to Group Presentation Slideshow (in our GitHub repo):
 Felicia Jayasaputra: https://github.com/feliciajayasaputra/csci331-hyperscript.git
+
 Mico Monks: https://github.com/maicomarx/CSCI331FinalProject.git
 
 ## Creative Objective Section
@@ -130,4 +133,5 @@ In conclusion, Hyperscript is a very useful tool for web development that can be
 
 ## References
 We only use the documentation of hyperscript as the reference:
+
 https://hyperscript.org/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>increment</title>
+    <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href="hsdemo.html">Hyperscript Demo</a>
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="countdown.html">Countdown Button</a>
+        <a class="link" href="filter.html">Filter</a>
+        <a class="link" href="intersection.html">Intersection</a>
+        <a class="link" href="updown.html">"Go" Command</a>
+    </div>
+    <h1>Increment Button in Hyperscript</h1>
+    <footer>By Mico Monks</footer>
+
+    <p>Here's an example of something we had to do in JavaScript, that is 
+        much easier in Hyperscript! The code reads as follows:
+    </p>
+    <pre>
+        <code>
+            &lt;button _="on click increment :x
+                if :x &gt; 10
+                    set :x to 0
+                    put :x into the next &lt;output/&gt;
+                else
+                    put :x into the next &lt;output/&gt;
+                end"&gt;
+            Click Me
+            &lt;/button&gt;
+        </code>
+    </pre>
+
+    <p>
+        This allows us to create a button to increment a number up until
+        10 directly in the html rather than in a separate JavaScript file.
+    </p>
+    
+    <button _="on click increment :x
+            if :x > 10
+                set :x to 0
+                put :x into the next <output/>
+            else
+                put :x into the next <output/>
+            end">
+    Click Me
+    </button>
+    <output>--</output>
+
+    <p>We can even add that second button that increments by 2. I just 
+        did this by putting two increment statements into the button. 
+    </p>
+
+    <button _="on click increment :x
+                increment :x
+                if :x > 10
+                    set :x to 0
+                    put :x into the next <output/>
+                else
+                    put :x into the next <output/>
+                end">
+    Click Me
+    </button>
+<output>--</output>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(97, 97, 97);
+    color: aliceblue;
+    padding: 5px;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.link{
+    flex: 1 1 auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.link + .link {
+    border-left: 1px solid aliceblue;
+}
+
+.red {
+    background-color: red
+}

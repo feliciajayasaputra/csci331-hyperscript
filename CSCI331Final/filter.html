@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="nav">
+        <a class="link" href="hsdemo.html">Hyperscript Demo</a>
+        <a class="link" href="increment.html">Increment Button</a>
+        <a class="link" href="countdown.html">Countdown Button</a>
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="intersection.html">Intersection</a>
+        <a class="link" href="updown.html">"Go" Command</a>
+    </div>
+    <h1>Filter List</h1>
+    <footer>By Felicia Jayasaputra</footer>
+    <p>Here's a list similar to the one we did in the Next.js assignment.
+        It isn't as dynamic as the one from that assignment, however it is 
+        much more simple, only taking up two lines of code!
+    </p>
+    <input _="on keyup show <li/> in #color-list
+                   when it's innerHTML contains my value">
+    <ul id="color-list">
+      <li style="color: red;">Red</li>
+      <li style="color: blue;">Blue</li>
+      <li style="color: aquamarine;">Blueish Green</li>
+      <li style="color: green;">Green</li>
+      <li style="color: gold;">Yellow</li>
+    </ul>
+
+    <p>
+        Here's the code for it:
+        <pre>
+            <code>
+                &lt;input _="on keyup show &lt;li/&gt; in #color-list
+                   when it's innerHTML contains my value"&gt;
+            </code>
+        </pre>
+        Only two lines!
+    </p>
+  </body>
+</html>

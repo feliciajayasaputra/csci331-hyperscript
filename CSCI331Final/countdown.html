@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href="hsdemo.html">Hyperscript Demo</a>
+        <a class="link" href="increment.html">Increment Button</a>
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="filter.html">Filter</a>
+        <a class="link" href="intersection.html">Intersection</a>
+        <a class="link" href="updown.html">"Go" Command</a>
+    </div>
+    <h1>Waiting in Hyperscript</h1>
+    <footer>By Mico Monks</footer>
+    <p>Another thing we can do in Hyperscript is waiting. Here we 
+        have a button that disappears after it's clicked. It will 
+        then give a countdown over the course of 3 seconds. After which,
+        the button will appear again.
+    </p>
+
+    <button _="on click put 'Started...' into the next <output/>
+                hide me
+                repeat for x in [3, 2, 1]
+                    put x into the next <output/>
+                    wait 1s
+                end
+                put '' into the next <output/>
+                show me
+    ">
+        Start
+    </button>
+    <output></output>
+    
+    <p>
+        This can be useful to avoid spamming buttons, or for verification 
+        purposes, or even for asynchronous coding. 
+    </p>
+</body>
+</html>

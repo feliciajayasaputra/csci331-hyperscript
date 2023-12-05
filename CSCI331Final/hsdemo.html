@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="increment.html">Increment Button</a>
+        <a class="link" href="countdown.html">Countdown Button</a>
+        <a class="link" href="filter.html">Filter</a>
+        <a class="link" href="intersection.html">Intersection</a>
+        <a class="link" href="updown.html">"Go" Command</a>
+    </div>
+    <h1>Welcome to Hyperscript!</h1>
+    <footer>By Mico Monks</footer>
+    <p>In Hyperscript, we can add script directly to the element itself.
+        For instance, we can change the color of this button on click,
+        without the use of an event handler. As long as
+        we have the id ".red" defined in css, we can toggle it on and off. 
+    </p>
+    <button script="on click toggle .red on me">
+        Click Me
+    </button>
+    <p>
+        The code for this button looks like this:
+    </p>
+    <pre>
+        <code style="text-align: start;">
+            &lt;button script="on click toggle .red on me"&gt;
+                Click Me
+            &lt;/button&gt;
+        </code>
+    </pre>
+
+    <div _="on pointerdown
+repeat until event pointerup
+  set rand to Math.random() * 360
+  transition
+    *background-color
+    to `hsl($rand 100% 90%)`
+    over 50ms
+end">
+<p>
+    But we can do more than just buttons. Since Hyperscript works with 
+    elements, we can actually change the color of the entire div!
+    Try clicking on the code below.
+</p>
+<div style="text-align: left;">
+    <pre>
+        <code>
+            &lt;div _="on pointerdown
+                            repeat until event pointerup
+                                set rand to Math.random() * 360
+                                transition
+                                    *background-color
+                                    to `hsl($rand 100% 90%)`
+                                    over 50ms
+                            end"&gt;
+        </code>
+    </pre>
+</div>
+
+<p>
+    All we're doing here is adding a few lines of Hyperscript to the
+    div that all this text is in, and it changes the background color 
+    of everything inside the div! Also note how we can replace "script" 
+    with "_". 
+</p>
+</div>
+    
+</body>
+</html>

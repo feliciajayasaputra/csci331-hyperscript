@@ -129,4 +129,5 @@ In this project, we both learn the introduction of hyperscript together. After h
 In conclusion, Hyperscript is a very useful tool for web development that can be used in tandem with other resources like HTMX or Django. We learned that by using Hyperscript, we can shorten code to be much more efficient in certain scanarios than if we just used Javascript. What works with Hyperscript is enhancing existing code for efficiency, and making things easier to accomplish in the DOM itself. What doesn't work with Hyperscript is having it do everything for you. As I mentioned above, Hyperscript is best used in tandem with other resources, so I would recommend using it in that manner. If we could do anything differently, we would have probably used another resource such as HTMX to create a fully functional experience in web development.
 
 ## References
-We use https://hyperscript.org/ as the reference and it is the documentation of hyperscript.
+We only use the documentation of hyperscript as the reference:
+https://hyperscript.org/

@@ -7,7 +7,7 @@ Our group discusses about Hyperscript Programming Language.....
 
 ## Features of Hyperscript:
 
-1. Filter
+### 1. Filter
 This filter feature that let you look/search things you want from the list. It uses "show" and "when" to filter things which we can only write it in 2 lines of codes. After the code is done, we can start by typing one letter in the search bar, and this will show the match things in te list.
 
 Example code:
@@ -16,7 +16,7 @@ Example code:
                    when it's innerHTML contains my value">
 ```
 
-2. Intersection
+### 2. Intersection
 Intersection feature brings animation to your design. When at least half of the image comes into view, it will become visible. This can be done with the intersecting property and the threshold amount. For example, If it has a threshold of 0.5, its opacity will transition to 1 (visible) when 50% of it is in view. If less than 50% of the image is in view, it does not meet the 0.5 threshold, and its opacity will be 0 (invisible).
 
 Example code:
@@ -26,7 +26,7 @@ Example code:
     else transition opacity to 0 " src="styles/fox.jpg" alt="fox">
 ```
 
-3. "Go" Command
+### 3. "Go" Command
 This allows you to navigate the browser to a new location like locally or to new URLs, depending on how it is used. This "Go" command can be used in many things that helps you move stuff. 
 
 Example code:
@@ -39,7 +39,7 @@ Example code:
     </button>
 ```
 
-4. Increment Button
+### 4. Increment Button
 The code for the incrememnt button allows us to add if statements, and increment variables. In the example, we are incrementing x. Once x is greater than 10, we are setting it back to 0. In either case, we will display x in the output below with "put".
 
 Example code:
@@ -55,7 +55,7 @@ Example code:
             </button>
 ```
 
-5. Countdown and Waiting
+### 5. Countdown and Waiting
 This allows you to add time to events and control what happens when. In this simple countdown demo I have made, it utilizes waiting as well as functions such as repeat, hide, and show.
 
 Example code:
@@ -74,7 +74,7 @@ Example code:
     </button>
 ```
 
-6. Color Changing
+### 6. Color Changing
 For the first example, we can change the color of a button on click, without the use of an event handler. As long as we have the id ".red" defined in css, we can toggle it on and off.
 
 Example Code:

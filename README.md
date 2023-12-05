@@ -1,5 +1,5 @@
 # CSCI 331 Project - Hyperscript
-## Group Members: Felicia Jayasaputra and Mico Monks
+## Group Members: Felicia Jayasaputra and Mico Monks (Group 16)
 
 ## Introduction
 
@@ -102,6 +102,31 @@ Example code:
 
 
 
-URL Link(s)
+## URL Link to school server:
+Felicia Jayasaputra: https://csci331.cs.montana.edu/~b81p263/project/hsdemo.html
+Mico Monks: https://csci331.cs.montana.edu/~t37k234/CSCI331Final/hsdemo.html
 
-Group 16
+## Link to Repo(s):
+Felicia Jayasaputra: https://github.com/feliciajayasaputra/csci331-hyperscript.git
+Mico Monks: https://github.com/maicomarx/CSCI331FinalProject.git
+
+## Link to Group Presentation Slideshow (in our GitHub repo):
+Felicia Jayasaputra: https://github.com/feliciajayasaputra/csci331-hyperscript.git
+Mico Monks: https://github.com/maicomarx/CSCI331FinalProject.git
+
+## Creative Objective Section
+The goal of the project is to get a better understanding of how hyperscript works and give people some knowledge about hyperscript. This includes the pro and cons it has in a scripting languages, the features it has and how to write them. We also did a comparison of hyperscript and other scripting language and how hyperscript can make some tasks easier. Moreover, we did a code demo and get to learn how to use and write hyperscript with implementing some cool feature that hyperscript offer. The mission for us is to get a good knowledge of how hyperscript works and give people a good understanding about hyperscript. We did this mission by giving them the introduction about hyperscript, teaching them the cool features they offer and showing them the code demo. 
+
+## Tech Summary Section
+Hyperscript is a scripting language that does the front end of web development. It utilizes interactive HTML to handle events in a user-freindly way. You can also use it for asynchronous code, to enhance your existing code, or to even debug. Because we can directly manipulate code embedded directly on elements, we can add events directly to said HTML elements instead of using JavaScript or another file. The only thing needed to be added to existing code to make Hyperscript work was: <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>.
+More in-depth feature functionality is described above, within our "features" section. Example code is also provided.
+
+## Individual Member Notes
+Felicia Jayasaputra - One paragraph per member you and your partner: contributions and work (tasks and how achieved)
+In this project, we both learn the introduction of hyperscript together. After having a good introduction of what is a hyperscript, I learn 3 of the features in hyperscript which is the filter, increment and the "Go" command. I made the slides show for those 3 features and also the code demo for each of the features. In the presentation, we switch off talking about each of the features that we each learn and showing each of our code demo that we each made. For the documentation, we each come up with our own ideas and combined them together so we wrote this documentation together. 
+
+## Conclusion
+In conclusion, Hyperscript is a very useful tool for web development that can be used in tandem with other resources like HTMX or Django. We learned that by using Hyperscript, we can shorten code to be much more efficient in certain scanarios than if we just used Javascript. What works with Hyperscript is enhancing existing code for efficiency, and making things easier to accomplish in the DOM itself. What doesn't work with Hyperscript is having it do everything for you. As I mentioned above, Hyperscript is best used in tandem with other resources, so I would recommend using it in that manner. If we could do anything differently, we would have probably used another resource such as HTMX to create a fully functional experience in web development.
+
+## References
+We use https://hyperscript.org/ as the reference and it is the documentation of hyperscript.

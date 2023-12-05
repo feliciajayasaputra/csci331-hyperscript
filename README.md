@@ -84,7 +84,7 @@ Example Code:
             </button>
 ```
 
-WE can also change the color of the entire div. All we're doing here is adding a few lines of Hyperscript to the div that all the text is in, and it changes the background color of everything inside the div. Also note how we can replace "script" with "_".
+We can also change the color of the entire div. All we're doing here is adding a few lines of Hyperscript to the div that all the text is in, and it changes the background color of everything inside the div. Also note how we can replace "script" with "_".
 
 Example code:
 ```

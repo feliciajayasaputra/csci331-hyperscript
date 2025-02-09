@@ -1,9 +1,8 @@
-# CSCI 331 Project - Hyperscript
-## Group Members: Felicia Jayasaputra and Mico Monks (Group 16)
+## Group Members: Felicia Jayasaputra and Mico Monks
 
 ## Introduction
 
-Our group discusses about Hyperscript Programming Language.....
+This is a documentation about Hyperscript Programming Language
 
 ## Features of Hyperscript:
 
